@@ -4,7 +4,9 @@
  *
  * @author Bea Zahonero DNI 29182741L
  * @author <a href="mailto:beazaho@hotmail.com">beazaho@hotmail.com</a>
- * @version 1.0 17 ene 2022 15:47:50
+ * @version 1.0
+ * @see https://github.com/BeaZahonero/ED_EXAMEN_TURNO_A_JAVADOC.git 17 ene 2022
+ * 15:47:50
  */
 public class EmpleadoED_29182741L {
 
@@ -43,9 +45,12 @@ public class EmpleadoED_29182741L {
 
    // Este método no lo comentaremos con JavaDoc
    public static void main(String[] args) {
-      EmpleadoED_29182741L emp = new EmpleadoED_29182741L("RAUL PALAO", "44654545X");
+      EmpleadoED_29182741L emp = new EmpleadoED_29182741L("RAUL PALAO",
+         "44654545X");
       int horasExtra = 2;
-      System.out.println("El salario de " + emp.nombreCompleto + " este messerá de " + emp.getSalarioEsteMes(horasExtra) + " euros, al hacer " + horasExtra + " horas extra.");
+      System.out.println("El salario de " + emp.nombreCompleto + " este messerá "
+         + "de " + emp.getSalarioEsteMes(horasExtra) + " euros, al hacer "
+         + horasExtra + " horas extra.");
    }
 
 }
